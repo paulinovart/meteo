@@ -29,11 +29,11 @@ const apiKey = "e54904fc06c31a3c73c821a81658d578";
                     weatherIcon.src = "images/soleil.png"
                 }
 
-                else if (data.weather[0].main == "rain") {
+                else if (data.weather[0].main == "Rain") {
                     weatherIcon.src = "images/pluie_forte.png"
                 }
 
-                else if (data.weather[0].main == "drizzle") {
+                else if (data.weather[0].main == "Drizzle") {
                     weatherIcon.src = "images/pluie.png"
                 }
 
